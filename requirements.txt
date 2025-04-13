@@ -1,1 +1,6 @@
-aiohttp==3.11.16
+streamlit
+aiohttp
+python-dotenv
+langchain-core
+langgraph
+langchain-openai
