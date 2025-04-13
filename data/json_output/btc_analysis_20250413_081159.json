@@ -1,0 +1,175 @@
+
+# Token Analysis Data
+The following JSON contains comprehensive token metrics from multiple sources.
+Each metric includes historical data points, trends, and current values where available.
+All numerical values are preserved in their original precision for accurate analysis.
+
+{
+  "token": "BTC",
+  "timestamp": "2025-04-13T08:11:57.931771",
+  "data_sources": {
+    "santiment": {
+      "dev_activity": {
+        "label": "Developer Activity",
+        "data_points": [
+          {
+            "date": "2025-04-06",
+            "value": 28.0
+          },
+          {
+            "date": "2025-04-07",
+            "value": 108.0
+          },
+          {
+            "date": "2025-04-08",
+            "value": 83.0
+          },
+          {
+            "date": "2025-04-09",
+            "value": 104.0
+          },
+          {
+            "date": "2025-04-10",
+            "value": 133.0
+          },
+          {
+            "date": "2025-04-11",
+            "value": 77.0
+          },
+          {
+            "date": "2025-04-12",
+            "value": 39.0
+          },
+          {
+            "date": "2025-04-13",
+            "value": 7.0
+          }
+        ],
+        "average": 72.375,
+        "trend": "decreasing"
+      },
+      "social_volume_total": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "daily_active_addresses": {
+        "label": "Daily Active Addresses",
+        "data_points": [
+          {
+            "date": "2025-04-06",
+            "value": 669159.0
+          },
+          {
+            "date": "2025-04-07",
+            "value": 778144.0
+          },
+          {
+            "date": "2025-04-08",
+            "value": 741076.0
+          },
+          {
+            "date": "2025-04-09",
+            "value": 724344.0
+          },
+          {
+            "date": "2025-04-10",
+            "value": 765978.0
+          },
+          {
+            "date": "2025-04-11",
+            "value": 767483.0
+          },
+          {
+            "date": "2025-04-12",
+            "value": 648936.0
+          }
+        ],
+        "average": 727874.2857142857,
+        "trend": "decreasing"
+      },
+      "price_usd": {
+        "label": "Price (USD)",
+        "data_points": [
+          {
+            "date": "2025-04-06",
+            "value": 78221.33313364969
+          },
+          {
+            "date": "2025-04-07",
+            "value": 79133.49911320987
+          },
+          {
+            "date": "2025-04-08",
+            "value": 76261.37707472194
+          },
+          {
+            "date": "2025-04-09",
+            "value": 82527.41277843207
+          },
+          {
+            "date": "2025-04-10",
+            "value": 79625.04814072048
+          },
+          {
+            "date": "2025-04-11",
+            "value": 83404.51699304495
+          },
+          {
+            "date": "2025-04-12",
+            "value": 85279.47053438281
+          },
+          {
+            "date": "2025-04-13",
+            "value": 84307.33428540539
+          }
+        ],
+        "average": 81094.9990066959,
+        "trend": "increasing"
+      },
+      "marketcap_usd": {
+        "label": "Market Capitalization (USD)",
+        "data_points": [
+          {
+            "date": "2025-04-06",
+            "value": 1552514022965.0
+          },
+          {
+            "date": "2025-04-07",
+            "value": 1570654984827.0
+          },
+          {
+            "date": "2025-04-08",
+            "value": 1513683933108.0
+          },
+          {
+            "date": "2025-04-09",
+            "value": 1638090412500.0
+          },
+          {
+            "date": "2025-04-10",
+            "value": 1580516596819.0
+          },
+          {
+            "date": "2025-04-11",
+            "value": 1655577243581.0
+          },
+          {
+            "date": "2025-04-12",
+            "value": 1692832369411.0
+          },
+          {
+            "date": "2025-04-13",
+            "value": 1673548725053.0
+          }
+        ],
+        "average": 1609677286033.0,
+        "trend": "increasing"
+      }
+    },
+    "coingecko": {
+      "current_price": 3275.18,
+      "market_cap": 0.0,
+      "volume_24h": 12991.238496604497,
+      "price_change_24h": -23.018460871565804
+    }
+  }
+}

@@ -1,0 +1,135 @@
+
+# Token Analysis Data
+The following JSON contains comprehensive token metrics from multiple sources.
+Each metric includes historical data points, trends, and current values where available.
+All numerical values are preserved in their original precision for accurate analysis.
+
+{
+  "token": "SOL",
+  "timestamp": "2025-04-12T20:41:24.819339",
+  "data_sources": {
+    "santiment": {
+      "dev_activity": {
+        "label": "Developer Activity",
+        "data_points": [
+          {
+            "date": "2025-04-05",
+            "value": 0.0
+          },
+          {
+            "date": "2025-04-06",
+            "value": 70.0
+          },
+          {
+            "date": "2025-04-07",
+            "value": 176.0
+          },
+          {
+            "date": "2025-04-08",
+            "value": 185.0
+          },
+          {
+            "date": "2025-04-09",
+            "value": 251.0
+          },
+          {
+            "date": "2025-04-10",
+            "value": 261.0
+          },
+          {
+            "date": "2025-04-11",
+            "value": 307.0
+          },
+          {
+            "date": "2025-04-12",
+            "value": 149.0
+          }
+        ],
+        "average": 174.875,
+        "trend": "increasing"
+      },
+      "social_volume_total": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "price_usd": {
+        "label": "Price (USD)",
+        "data_points": [
+          {
+            "date": "2025-04-05",
+            "value": 120.258504123365
+          },
+          {
+            "date": "2025-04-06",
+            "value": 105.712015875081
+          },
+          {
+            "date": "2025-04-07",
+            "value": 106.90526508179
+          },
+          {
+            "date": "2025-04-08",
+            "value": 105.504813530124
+          },
+          {
+            "date": "2025-04-09",
+            "value": 119.056421003317
+          },
+          {
+            "date": "2025-04-10",
+            "value": 112.807319367337
+          },
+          {
+            "date": "2025-04-11",
+            "value": 121.532700200799
+          },
+          {
+            "date": "2025-04-12",
+            "value": 132.273945710203
+          }
+        ],
+        "average": 115.506373111502,
+        "trend": "increasing"
+      },
+      "marketcap_usd": {
+        "label": "Market Capitalization (USD)",
+        "data_points": [
+          {
+            "date": "2025-04-05",
+            "value": 61882630806.0
+          },
+          {
+            "date": "2025-04-06",
+            "value": 54398171133.0
+          },
+          {
+            "date": "2025-04-07",
+            "value": 55106753386.0
+          },
+          {
+            "date": "2025-04-08",
+            "value": 54384727328.0
+          },
+          {
+            "date": "2025-04-09",
+            "value": 61384470722.0
+          },
+          {
+            "date": "2025-04-10",
+            "value": 58178619644.0
+          },
+          {
+            "date": "2025-04-11",
+            "value": 62700552053.0
+          },
+          {
+            "date": "2025-04-12",
+            "value": 68249767609.0
+          }
+        ],
+        "average": 59535711585.125,
+        "trend": "increasing"
+      }
+    },
+    "coingecko": null
+  }
+}
