@@ -1,0 +1,35 @@
+
+# Token Analysis Data
+The following JSON contains comprehensive token metrics from multiple sources.
+Each metric includes historical data points, trends, and current values where available.
+All numerical values are preserved in their original precision for accurate analysis.
+
+{
+  "token": "DOGE",
+  "timestamp": "2025-04-13T09:15:14.129257",
+  "data_sources": {
+    "santiment": {
+      "dev_activity": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "social_volume_total": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "daily_active_addresses": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "price_usd": {
+        "error": "'NoneType' object is not iterable"
+      },
+      "marketcap_usd": {
+        "error": "'NoneType' object is not iterable"
+      }
+    },
+    "coingecko": {
+      "current_price": 0.125934,
+      "market_cap": 1246651.5753719027,
+      "volume_24h": 68768.97308451693,
+      "price_change_24h": -3.1116037816675326
+    }
+  }
+}
