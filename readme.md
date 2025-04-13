@@ -54,6 +54,10 @@ After installing the dependencies, you can launch the application by running:
 
     python app.py
 
+Run it using streamlit by running
+
+    streamlit run app.py
+
 The application may rely on the configurations set in the config.py file. Ensure that any necessary API keys, environment variables, or file paths are correctly specified there.
 Configuration
 
