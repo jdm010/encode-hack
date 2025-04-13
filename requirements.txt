@@ -1,6 +1,6 @@
 streamlit
 aiohttp
 python-dotenv
-langchain-core
+langchain
 langgraph
 langchain-openai
